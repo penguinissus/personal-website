@@ -1,16 +1,41 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <title>My Page!</title>
-    </head>
-    <body>
-        <button>I'm a button</button>
-        <p>Hi im a <em>strong</em> paragraph of <br/> text</p>
-        <p>Hi im a paragraph of text</p>
-        <p>Hi im a paragraph of text</p>
-        <p>Hi im a paragraph of text</p>
-    </body>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jocelyn - personal website</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+    <header>
+        <nav class="navbar" role="navigation" aria-label="Main Navigation">
+            <div class="nav__container">
+                <a href="/" id="navbar-logo">Jocelyn</a> <!--putting just a / leads back to home page-->
+                <ul class="navbar__menu">
+                    <li class="navbar__item">
+                        <a href="/" class="navbar__links">Home</a>
+                    </li>
+                    <li class="navbar__item">
+                        <a href="/interests.html" class="navbar__links">Interests</a>
+                    </li>
+                    <li class="navbar__item">
+                        <a href="/projects.html" class="navbar__links">Projects</a>
+                    </li>
+                    <li class="navbar__btn mobile">
+                        <a href="/surprise.html" class="navbar__links">Surprise</a>
+                    </li>
+                </ul>
+
+                <div class="navbar__btn desktop">
+                    <a href="surprise.html" class="button">Surprise</a>
+                </div>
+
+                <button class="navbar__toggle" id="mobile-menu" aria-label="Toggle Navigation" aria-expanded=""false>
+                    <i class="fas fa-bars"></i>
+                </button>
+
+            </div>
+        </nav>
+    </header>
+</body>
 </html>
-<!--current progress: at beginning of
-https://www.youtube.com/watch?v=RjHflb-QgVc&list=PLoYCgNOIyGAB_8_iq1cL8MVeun7cB6eNc&index=2
--->
