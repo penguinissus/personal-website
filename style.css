@@ -5,3 +5,23 @@
     font-family: "Kumbh Sans", sans-serif;
     overflow-x: hidden; /*Hides the white space on the side*/
 }
+
+.navbar__container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+    background: #000;
+    z-index: 1000; /*closest to viewer for layering*/
+    width: 100%;
+    margin: 0 auto; /*1st is top and bottom, 2nd is left and right*/
+    padding: 0 50px;
+    position: fixed;
+}
+
+#navbar-logo {
+    color: #0ce48d; /*to change*/
+    cursor: pointer;
+    text-decoration: none; /*get rid of underline*/
+    font-size: 2rem; /*1 rem = 16px*/
+}
