@@ -82,7 +82,7 @@
 
 .navbar__toggle {
     display: none;
-}
+} 
 
 @media screen and (max-width: 968px) {
     .navbar__toggle {
