@@ -85,6 +85,10 @@
 } 
 
 @media screen and (max-width: 968px) {
+    .fa-bars {
+        line-height: normal !important;
+    }
+
     .navbar__toggle {
         display: block;
         position: absolute;
