@@ -219,7 +219,7 @@
     .hero__container {
         grid-template-columns: 1fr;
         height: auto;
-        padding: 60px 0px;
+        padding: 120px 0px;
     }
 
     .hero__content {
@@ -241,6 +241,7 @@
 @media screen and (max-width: 480px) {
     .hero__container {
         width: 100vw;
+        padding: 60px 0;
     }
 
     .hero__content h1 {
@@ -253,3 +254,4 @@
         margin: 2.5rem 0;
     }
 }
+
